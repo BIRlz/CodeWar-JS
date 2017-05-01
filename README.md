@@ -1,1 +1,2 @@
 # CodeWar-JS
+## Use javascript
