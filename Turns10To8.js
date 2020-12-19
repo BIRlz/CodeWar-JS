@@ -10,4 +10,17 @@ function Charge (ele){
     }
     return s;
 }
-console.log(Charge(1348));
+console.log(Charge(1348))
+
+function sort_(ele) {
+  for (var i = 0; i < ele.length - 1; i++) {
+    for (var j = i + 1; j < ele.length; j++) {
+      if (ele[i] > ele[j]) {
+        tmp = ele[i]
+        ele[i] = ele[j]
+        ele[j] = tmp
+      }
+    }
+  }
+  return ele
+}
